@@ -1,6 +1,6 @@
 import 'whatwg-fetch';
 
-const API_URL = 'http://localhost:3030/';
+const API_URL = 'http://192.168.1.82/api/highscores/all';
 
 export function getContestants() {
   return fetch(`${API_URL}`, request).then(data => data.json());
